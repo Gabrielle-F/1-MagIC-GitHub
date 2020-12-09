@@ -13,16 +13,9 @@ public class UserRepository {
         this.apiService = apiService;
     }
 
-    public List<User> getUsers() {
-        // TODO: A modifier
-        return null;
-    }
+    public List<User> getUsers() { this.apiService.getUser() }
 
-    public void generateRandomUser() {
-        // TODO: A modifier
-    }
+    public void generateRandomUser() { this.apiService.generateRandomUser() }
 
-    public void deleteUser(User user) {
-        // TODO: A modifier
-    }
+    public void deleteUser(User user) { this.apiService.deletUser(User user) }
 }
